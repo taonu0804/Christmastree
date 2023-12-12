@@ -1,0 +1,235 @@
+.container {
+    height: 720px;
+    overflow: hidden;
+    position: relative;
+    width: 1520px;
+
+    background-color: #55b1dc;
+    background: -moz-linear-gradient(top, #55b8e6, rgb(32, 32, 32));
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(34, 34, 34)),color-stop(1, #75bbdb));
+
+    -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+h1 {
+    color: #FAFAFA;
+    font: bold 50px 'Raleway Thin',Raleway Thin;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.85), 4px 4px 0 #CFEAED;
+    text-transform: uppercase;
+    margin-top: -85px;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.bottom_snow {
+    position: absolute;
+    z-index: 5;
+    top: 420px;
+    left: 50%;
+    margin-left: -500px;
+    width: 1000px;
+    height: 1000px;
+    background: #e2e2e2;
+
+    border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+}
+.bottom_snow:before , .bottom_snow:after {
+    background-color: #fff;
+    content: "";
+    height: 1000px;
+    position: absolute;
+    top: -25px;
+    width: 1000px;
+
+    border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    -webkit-border-radius: 1000px;
+}
+.bottom_snow:before {
+    left: 400px;
+}
+.bottom_snow:after {
+    right: 400px;
+}
+
+.tree, .tree:before, .tree:after, .tree_bot, .tree_bot:before, .tree_bot:after {
+    height: 100;
+    position: absolute;
+    width: 100;
+
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+}
+.tree {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid rgb(3, 57, 3);
+    left: 750px;
+    top: 135px;
+}
+.tree:before {
+    content:'';
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid rgb(3, 57, 3);
+    left: -40px;
+    top: 15px;
+}
+.tree:after {
+    content:'';
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid rgb(3, 57, 3);
+    left: -60px;
+    top: 40px;
+}
+/* tree, bottom side */
+.tree_bot {
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid rgb(3, 57, 3);
+    left: 690px;
+    top: 210px;
+}
+.tree_bot:before {
+    content:'';
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid rgb(3, 57, 3);
+    left: -100px;
+    top: 40px;
+}
+.tree_bot:after {
+    content:'';
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 120px solid rgb(3, 57, 3);
+    left: -120px;
+    top: 80px;
+}
+
+.ball {
+    height: 40px;
+    left: 750px;
+    position: absolute;
+    top: 345px;
+    width: 40px;
+
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+
+    box-shadow: 0 0 5px #777;
+    -moz-box-shadow: 0 0 5px #777;
+    -webkit-box-shadow: 0 0 5px #777;
+}
+.red {
+    background-color: #591518;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #f9d0be, #591518 70%);
+    background-image: -moz-radial-gradient(50% 50%, circle, #f9d0be, #591518 70%);
+    background-image: -o-radial-gradient(50% 50%, circle, #f9d0be, #591518 70%);
+    background-image: radial-gradient(50% 50%, circle, #f9d0be, #591518 70%);
+
+    left: 700px;
+    top: 325px;
+}
+.blue {
+    background-color: #51b7e7;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #cde6f9, #51b7e7 70%);
+    background-image: -moz-radial-gradient(50% 50%, circle, #cde6f9, #51b7e7 70%);
+    background-image: -o-radial-gradient(50% 50%, circle, #cde6f9, #51b7e7 70%);
+    background-image: radial-gradient(50% 50%, circle, #cde6f9, #51b7e7 70%);
+}
+.orange {
+    background-color: #fcae6d;
+    background-image: -webkit-radial-gradient(50% 50%, circle, #d1e5b2, #fcae6d 70%);
+    background-image: -moz-radial-gradient(50% 50%, circle, #d1e5b2, #fcae6d 70%);
+    background-image: -o-radial-gradient(50% 50%, circle, #d1e5b2, #fcae6d 70%);
+    background-image: radial-gradient(50% 50%, circle, #d1e5b2, #fcae6d 70%);
+
+    left: 800px;
+    top: 325px;
+}
+.rsmall, .osmall, .bsmall {
+    height: 25px;
+    width: 25px;
+}
+.rsmall {
+    left: 800px;
+    top: 275px;
+}
+.bsmall {
+    left: 758px;
+    top: 285px;
+}
+.osmall {
+    left: 710px;
+    top: 275px;
+}
+
+.rxsmall, .bxsmall {
+    height: 15px;
+    width: 15px;
+}
+
+.rxsmall {
+    left: 740px;
+    top: 230px;
+}
+
+.bxsmall {
+    left: 783px;
+    top: 230px;
+}
+
+.stars {
+    height: 55px;
+    width: 55px;
+    margin-top: 93px;
+    padding-left: 743px;
+}
+
+/* style the falling snow */
+.fall_snow {
+    background-image: url('image/snow1.png'), url('image/snow2.png'), url('image/snow3.png');
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+     -webkit-animation: snow 10s linear infinite;
+     -moz-animation: snow 10s linear infinite;
+     -ms-animation: snow 10s linear infinite;
+     animation: snow 10s linear infinite;
+}
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
